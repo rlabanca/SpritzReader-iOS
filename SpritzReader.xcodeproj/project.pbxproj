@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AE062D11996A63800C40453 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AE062D01996A63800C40453 /* Foundation.framework */; };
+		6AE062D31996A63800C40453 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AE062D21996A63800C40453 /* CoreGraphics.framework */; };
+		6AE062D51996A63800C40453 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AE062D41996A63800C40453 /* UIKit.framework */; };
+		6AE062DB1996A63800C40453 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6AE062D91996A63800C40453 /* InfoPlist.strings */; };
+		6AE062DD1996A63800C40453 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE062DC1996A63800C40453 /* main.m */; };
+		6AE062E11996A63800C40453 /* SPRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE062E01996A63800C40453 /* SPRAppDelegate.m */; };
+		6AE062E41996A63800C40453 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AE062E21996A63800C40453 /* Main.storyboard */; };
+		6AE062E71996A63800C40453 /* SPRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE062E61996A63800C40453 /* SPRViewController.m */; };
+		6AE062E91996A63800C40453 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AE062E81996A63800C40453 /* Images.xcassets */; };
+		6AE062F01996A63800C40453 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AE062EF1996A63800C40453 /* XCTest.framework */; };
+		6AE062F11996A63800C40453 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AE062D01996A63800C40453 /* Foundation.framework */; };
+		6AE062F21996A63800C40453 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AE062D41996A63800C40453 /* UIKit.framework */; };
+		6AE062FA1996A63800C40453 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6AE062F81996A63800C40453 /* InfoPlist.strings */; };
+		6AE062FC1996A63800C40453 /* SpritzReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE062FB1996A63800C40453 /* SpritzReaderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AE062F31996A63800C40453 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AE062C51996A63800C40453 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AE062CC1996A63800C40453;
+			remoteInfo = SpritzReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6AE062CD1996A63800C40453 /* SpritzReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpritzReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AE062D01996A63800C40453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6AE062D21996A63800C40453 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6AE062D41996A63800C40453 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6AE062D81996A63800C40453 /* SpritzReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpritzReader-Info.plist"; sourceTree = "<group>"; };
+		6AE062DA1996A63800C40453 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6AE062DC1996A63800C40453 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6AE062DE1996A63800C40453 /* SpritzReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpritzReader-Prefix.pch"; sourceTree = "<group>"; };
+		6AE062DF1996A63800C40453 /* SPRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPRAppDelegate.h; sourceTree = "<group>"; };
+		6AE062E01996A63800C40453 /* SPRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPRAppDelegate.m; sourceTree = "<group>"; };
+		6AE062E31996A63800C40453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6AE062E51996A63800C40453 /* SPRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPRViewController.h; sourceTree = "<group>"; };
+		6AE062E61996A63800C40453 /* SPRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPRViewController.m; sourceTree = "<group>"; };
+		6AE062E81996A63800C40453 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6AE062EE1996A63800C40453 /* SpritzReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpritzReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AE062EF1996A63800C40453 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6AE062F71996A63800C40453 /* SpritzReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpritzReaderTests-Info.plist"; sourceTree = "<group>"; };
+		6AE062F91996A63800C40453 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6AE062FB1996A63800C40453 /* SpritzReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpritzReaderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AE062CA1996A63800C40453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE062D31996A63800C40453 /* CoreGraphics.framework in Frameworks */,
+				6AE062D51996A63800C40453 /* UIKit.framework in Frameworks */,
+				6AE062D11996A63800C40453 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AE062EB1996A63800C40453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE062F01996A63800C40453 /* XCTest.framework in Frameworks */,
+				6AE062F21996A63800C40453 /* UIKit.framework in Frameworks */,
+				6AE062F11996A63800C40453 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AE062C41996A63800C40453 = {
+			isa = PBXGroup;
+			children = (
+				6AE062D61996A63800C40453 /* SpritzReader */,
+				6AE062F51996A63800C40453 /* SpritzReaderTests */,
+				6AE062CF1996A63800C40453 /* Frameworks */,
+				6AE062CE1996A63800C40453 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AE062CE1996A63800C40453 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AE062CD1996A63800C40453 /* SpritzReader.app */,
+				6AE062EE1996A63800C40453 /* SpritzReaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AE062CF1996A63800C40453 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AE062D01996A63800C40453 /* Foundation.framework */,
+				6AE062D21996A63800C40453 /* CoreGraphics.framework */,
+				6AE062D41996A63800C40453 /* UIKit.framework */,
+				6AE062EF1996A63800C40453 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6AE062D61996A63800C40453 /* SpritzReader */ = {
+			isa = PBXGroup;
+			children = (
+				6AE062DF1996A63800C40453 /* SPRAppDelegate.h */,
+				6AE062E01996A63800C40453 /* SPRAppDelegate.m */,
+				6AE062E21996A63800C40453 /* Main.storyboard */,
+				6AE062E51996A63800C40453 /* SPRViewController.h */,
+				6AE062E61996A63800C40453 /* SPRViewController.m */,
+				6AE062E81996A63800C40453 /* Images.xcassets */,
+				6AE062D71996A63800C40453 /* Supporting Files */,
+			);
+			path = SpritzReader;
+			sourceTree = "<group>";
+		};
+		6AE062D71996A63800C40453 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AE062D81996A63800C40453 /* SpritzReader-Info.plist */,
+				6AE062D91996A63800C40453 /* InfoPlist.strings */,
+				6AE062DC1996A63800C40453 /* main.m */,
+				6AE062DE1996A63800C40453 /* SpritzReader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6AE062F51996A63800C40453 /* SpritzReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				6AE062FB1996A63800C40453 /* SpritzReaderTests.m */,
+				6AE062F61996A63800C40453 /* Supporting Files */,
+			);
+			path = SpritzReaderTests;
+			sourceTree = "<group>";
+		};
+		6AE062F61996A63800C40453 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AE062F71996A63800C40453 /* SpritzReaderTests-Info.plist */,
+				6AE062F81996A63800C40453 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AE062CC1996A63800C40453 /* SpritzReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AE062FF1996A63800C40453 /* Build configuration list for PBXNativeTarget "SpritzReader" */;
+			buildPhases = (
+				6AE062C91996A63800C40453 /* Sources */,
+				6AE062CA1996A63800C40453 /* Frameworks */,
+				6AE062CB1996A63800C40453 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpritzReader;
+			productName = SpritzReader;
+			productReference = 6AE062CD1996A63800C40453 /* SpritzReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AE062ED1996A63800C40453 /* SpritzReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AE063021996A63800C40453 /* Build configuration list for PBXNativeTarget "SpritzReaderTests" */;
+			buildPhases = (
+				6AE062EA1996A63800C40453 /* Sources */,
+				6AE062EB1996A63800C40453 /* Frameworks */,
+				6AE062EC1996A63800C40453 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AE062F41996A63800C40453 /* PBXTargetDependency */,
+			);
+			name = SpritzReaderTests;
+			productName = SpritzReaderTests;
+			productReference = 6AE062EE1996A63800C40453 /* SpritzReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AE062C51996A63800C40453 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SPR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Fancookie Inc";
+				TargetAttributes = {
+					6AE062ED1996A63800C40453 = {
+						TestTargetID = 6AE062CC1996A63800C40453;
+					};
+				};
+			};
+			buildConfigurationList = 6AE062C81996A63800C40453 /* Build configuration list for PBXProject "SpritzReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AE062C41996A63800C40453;
+			productRefGroup = 6AE062CE1996A63800C40453 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AE062CC1996A63800C40453 /* SpritzReader */,
+				6AE062ED1996A63800C40453 /* SpritzReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AE062CB1996A63800C40453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE062E91996A63800C40453 /* Images.xcassets in Resources */,
+				6AE062DB1996A63800C40453 /* InfoPlist.strings in Resources */,
+				6AE062E41996A63800C40453 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AE062EC1996A63800C40453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE062FA1996A63800C40453 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AE062C91996A63800C40453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE062E71996A63800C40453 /* SPRViewController.m in Sources */,
+				6AE062E11996A63800C40453 /* SPRAppDelegate.m in Sources */,
+				6AE062DD1996A63800C40453 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AE062EA1996A63800C40453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE062FC1996A63800C40453 /* SpritzReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AE062F41996A63800C40453 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AE062CC1996A63800C40453 /* SpritzReader */;
+			targetProxy = 6AE062F31996A63800C40453 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6AE062D91996A63800C40453 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AE062DA1996A63800C40453 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6AE062E21996A63800C40453 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AE062E31996A63800C40453 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6AE062F81996A63800C40453 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AE062F91996A63800C40453 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6AE062FD1996A63800C40453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6AE062FE1996A63800C40453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AE063001996A63800C40453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpritzReader/SpritzReader-Prefix.pch";
+				INFOPLIST_FILE = "SpritzReader/SpritzReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6AE063011996A63800C40453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpritzReader/SpritzReader-Prefix.pch";
+				INFOPLIST_FILE = "SpritzReader/SpritzReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6AE063031996A63800C40453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpritzReader.app/SpritzReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpritzReader/SpritzReader-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SpritzReaderTests/SpritzReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6AE063041996A63800C40453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpritzReader.app/SpritzReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpritzReader/SpritzReader-Prefix.pch";
+				INFOPLIST_FILE = "SpritzReaderTests/SpritzReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AE062C81996A63800C40453 /* Build configuration list for PBXProject "SpritzReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AE062FD1996A63800C40453 /* Debug */,
+				6AE062FE1996A63800C40453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AE062FF1996A63800C40453 /* Build configuration list for PBXNativeTarget "SpritzReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AE063001996A63800C40453 /* Debug */,
+				6AE063011996A63800C40453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6AE063021996A63800C40453 /* Build configuration list for PBXNativeTarget "SpritzReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AE063031996A63800C40453 /* Debug */,
+				6AE063041996A63800C40453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AE062C51996A63800C40453 /* Project object */;
+}
