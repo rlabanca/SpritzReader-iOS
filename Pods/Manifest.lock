@@ -1,0 +1,14 @@
+PODS:
+  - OSSpritz (0.0.8)
+
+DEPENDENCIES:
+  - OSSpritz (from `https://raw.github.com/rlabanca/openspritz-ios/master/OpenSpritzDemo/OSSpritz.podspec`)
+
+EXTERNAL SOURCES:
+  OSSpritz:
+    :podspec: https://raw.github.com/rlabanca/openspritz-ios/master/OpenSpritzDemo/OSSpritz.podspec
+
+SPEC CHECKSUMS:
+  OSSpritz: 3770ab1ae1594791244597b4fade3b5c35f38fa8
+
+COCOAPODS: 0.32.1
